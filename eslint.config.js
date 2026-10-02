@@ -9,6 +9,8 @@ const prettierOptions = {
   trailingComma: 'all',
   arrowParens: 'always',
   semi: false,
+  camelCase: false,
+  endOfLine: 'auto',
 }
 
 export default [
@@ -29,6 +31,7 @@ export default [
   prettierRecommended,
   {
     rules: {
+      camelcase: 'off',
       'prettier/prettier': ['error', prettierOptions],
     },
   },
