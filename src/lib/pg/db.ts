@@ -33,4 +33,4 @@ class Database {
   }
 }
 
-export const db = new Database()
+export const database = new Database()
