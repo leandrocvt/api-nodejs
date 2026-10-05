@@ -1,3 +1,5 @@
+import 'reflect-metadata'
+import '@/lib/typeorm/typeorm'
 import fastify from 'fastify'
 import { userRoutes } from './http/controllers/user/routes'
 import { personRoutes } from './http/controllers/person/routes'

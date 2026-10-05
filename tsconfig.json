@@ -3,6 +3,8 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "target": "esnext",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "esModuleInterop": true,
     "types": ["node"],
 
