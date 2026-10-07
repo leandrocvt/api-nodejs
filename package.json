@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build --format esm",
+    "migration:run": "npm run build && typeorm migration:run -d ./build/lib/typeorm/typeorm.js",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
