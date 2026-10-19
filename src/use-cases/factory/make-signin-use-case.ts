@@ -8,4 +8,3 @@ export function makeSigninUseCase() {
 
   return signinUseCase
 }
-
